@@ -5,20 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".Login">
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alpha="0.9"
-        android:background="@drawable/gradient">
-    </View>
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="71dp"
-        android:layout_height="94dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/ic_action_airplane"
         app:layout_constraintEnd_toEndOf="@id/main"
@@ -43,6 +36,23 @@
         app:layout_constraintTop_toTopOf="parent">
     </ImageView>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.32">
+
+    </androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.64">
+
+    </androidx.constraintlayout.widget.Guideline>
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -53,18 +63,17 @@
         app:layout_constraintEnd_toEndOf="@id/guideline5"
         app:layout_constraintStart_toStartOf="@id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:startIconDrawable="@drawable/usericon">
+        app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/username"
-            android:maxLines="1"
             android:background="@color/white"
-            android:inputType="text">
-
+            android:hint="username"
+            android:maxLines="1">
         </EditText>
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -74,67 +83,62 @@
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="@id/guideline5"
         app:layout_constraintStart_toStartOf="@id/guideline4"
-        app:layout_constraintTop_toBottomOf="@id/til1"
+        app:layout_constraintTop_toBottomOf="@+id/til1"
         app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/keyicon">
+        >
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/password"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/username"
+            android:hint="Password"
             android:maxLines="1"
-            android:background="@color/white"  />
+            >
+        </EditText>
+
     </com.google.android.material.textfield.TextInputLayout>
 
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.0"
+        android:background="@color/blue"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+    </View>
+
     <Button
         android:id="@+id/button1"
-        android:layout_width="244dp"
-        android:layout_height="57dp"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
         android:layout_marginTop="10dp"
         android:background="@color/white"
-        android:text="@string/login"
+        android:onClick="openMain"
+        android:text="LOGIN"
         app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@id/guideline4"
         app:layout_constraintTop_toBottomOf="@id/til2"
-        style="@style/buttonflat"
         tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_height="60dp"
-        style="@style/buttonoutlined"
-        android:text="@string/signup"
+        android:layout_width="233dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="5dp"
         android:background="@color/white"
+        android:onClick="openMain"
+        android:text="SIGNUP"
         app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@id/guideline4"
         app:layout_constraintTop_toBottomOf="@id/button1"
         tools:ignore="OnClick" />
-
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.20">
-
-
-
-    </androidx.constraintlayout.widget.Guideline>
-
-
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.80">
-
-    </androidx.constraintlayout.widget.Guideline>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
