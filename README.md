@@ -1,7 +1,7 @@
 
 # Nicestart
 
-![Screenshot_20231116_183230](https://github.com/Esteff03/Nicestart11/assets/131858712/1eaed41c-9d09-4df0-9c48-b664b425442d)
+[![Captura-de-pantalla-2024-10-22-223801.png](https://i.postimg.cc/sfQqt78D/Captura-de-pantalla-2024-10-22-223801.png)](https://postimg.cc/z3Nxhb89)
 
 
 Proyecto educativo. Realizado en Android Studio.
