@@ -4,4 +4,8 @@
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
     <string name="signup">SIGNUP</string>
+    <string name="imagehipman">Imagehipman</string>
+    <string name="Imagegirl">Imagegirl</string>
+    <string name="image">Image</string>
+    <string name="cancel">CANCEL</string>
 </resources>
