@@ -60,13 +60,12 @@
         <EditText
             android:id="@+id/username"
             android:autofillHints="username"
-            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/username"
             android:maxLines="1"
             android:background="@color/white"
-           >
+            android:inputType="text">
 
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>

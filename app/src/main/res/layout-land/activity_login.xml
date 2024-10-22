@@ -26,7 +26,6 @@
 
     <ImageView
         android:id="@+id/girl"
-        android:contentDescription="@string/Imagegirl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
@@ -123,7 +122,6 @@
         android:layout_width="229dp"
         android:layout_height="45dp"
         android:layout_marginTop="10dp"
-        android:background="@color/white"
         android:text="@string/login"
         app:layout_constraintEnd_toEndOf="@id/guideline5"
         app:layout_constraintHorizontal_bias="0.49"
