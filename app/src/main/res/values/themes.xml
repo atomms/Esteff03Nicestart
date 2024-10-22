@@ -11,5 +11,13 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
+        <item name="background">@color/fucsia_200</item>
+    </style>
+
+    <style name="Theme.First.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.First.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
 </resources>
