@@ -24,7 +24,7 @@ Ejemplo de cómo se podria implementar la funcionalidad de los botones:
 ![2024-10-23_13-09-41](https://github.com/user-attachments/assets/96077b96-d029-4a52-bc85-e4a82e2374ec)
 
 
-#Proyecto educativo de 2º DAM, ies Juan de la Cierva. Realizado en Android Studio  ![Android_Studio_icon_(2023) svg](https://github.com/user-attachments/assets/e5015a6b-b512-4b09-a688-d21f778da866)
+#Proyecto educativo de 2º DAM, ies Juan de la Cierva. Realizado en Android Studio.
 .
 
 
