@@ -101,7 +101,7 @@
         android:id="@+id/buttonCancel"
         style="@style/buttonoutlined"
         android:layout_height="60dp"
-        android:text="@string/cancel"
+        android:text="@string/Cancel"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/buttonSignup"
