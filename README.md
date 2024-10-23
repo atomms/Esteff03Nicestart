@@ -6,7 +6,8 @@
 Es una app, compuesta por un activity_login.
 
 
-![2024-10-23_12-56-33](https://github.com/user-attachments/assets/eaf7c12d-1def-4220-973c-5a168dd1d655)
+![2024-10-23_13-05-03](https://github.com/user-attachments/assets/d8b2ee4e-2c07-4098-9f1a-f3ba8a7ec39e)
+
 
 Un activity_signup, donde el usuario podra registrarse.
 
