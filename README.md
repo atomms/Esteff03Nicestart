@@ -5,8 +5,10 @@
 
 Es una app, compuesta por un activity_login.
 
-Un activity_signup: 
+
 ![2024-10-23_12-56-33](https://github.com/user-attachments/assets/eaf7c12d-1def-4220-973c-5a168dd1d655)
+
+Un activity_signup, donde el usuario podra registrarse.
 
 Proyecto educativo de 2º DAM, ies Juan de la Cierva. Realizado en Android Studio.
 
