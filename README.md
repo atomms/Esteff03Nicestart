@@ -8,6 +8,11 @@
   
 
 
+
+![2024-10-24_10-27-33](https://github.com/user-attachments/assets/d771c7e8-89e0-4f12-b7e5-99f9368d5e20)
+
+
+
 ![2024-10-23_13-05-03](https://github.com/user-attachments/assets/d8b2ee4e-2c07-4098-9f1a-f3ba8a7ec39e)
 
 
