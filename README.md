@@ -29,6 +29,11 @@ Ejemplo de cómo se podria implementar la funcionalidad de los botones:
 ![2024-10-23_13-09-41](https://github.com/user-attachments/assets/96077b96-d029-4a52-bc85-e4a82e2374ec)
 
 
+
+![2024-10-28_12-08-22](https://github.com/user-attachments/assets/eb981907-50e9-4d6f-81f3-13c28051ffe0)
+
+
+
 #Proyecto educativo de 2º DAM, ies Juan de la Cierva. Realizado en Android Studio.
 .
 
