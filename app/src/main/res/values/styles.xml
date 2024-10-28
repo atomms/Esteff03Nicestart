@@ -16,14 +16,9 @@
         <item name="android:textColor">@color/purple_500</item>
     </style>
 
-    <style name="Base.Theme.Nicestart." parent="Theme.AppCompat.Light.DarkActionBar">
-<<<<<<< HEAD
+    <style name="Base.Theme.Nicestart." parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="Theme.First" parent="Base.Theme.Nicestart">
+        <!-- Personaliza tu tema aquí -->
     </style>
-
-
-=======
-        <!-- Define las propiedades de estilo aquí -->
-    </style>
-
->>>>>>> 3d34b755b329b38f4eb58235ee8ef2b766d64565
 </resources>
