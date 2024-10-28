@@ -24,9 +24,11 @@ public class Login extends AppCompatActivity {
 
         // Cargar las dependencias de Glide
         Glide.with(this)
-                .load(R.drawable.girl)
+                .load("https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80")
+                //.load(R.drawable.girl)
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .centerCrop()
+                //.circleCrop()
                 .into(mGirl);
 
         EdgeToEdge.enable(this);
