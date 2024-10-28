@@ -34,6 +34,11 @@ Ejemplo de cómo se podria implementar la funcionalidad de los botones:
 
 
 
+[Uploading Screen_recording_20241028_134845.webm…]()
+
+
+
+
 #Proyecto educativo de 2º DAM, ies Juan de la Cierva. Realizado en Android Studio.
 .
 
