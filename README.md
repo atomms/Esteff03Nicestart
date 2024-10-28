@@ -34,7 +34,7 @@ Ejemplo de cómo se podria implementar la funcionalidad de los botones:
 
 
 
-[Uploading Screen_recording_20241028_134845.webm…]()
+[[Uploading Screen_recording_20241028_134845.webm…]()](https://www.canva.com/design/DAGU3AcoaJk/sqLPWm-wOrtIXlIuCBLk8Q/edit?utm_content=DAGU3AcoaJk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
