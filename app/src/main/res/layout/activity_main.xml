@@ -7,9 +7,4 @@
     android:background="@drawable/gradient"
     tools:context="com.example.nicestart.Login">
 
-
-    <!--    android:src="@drawable/girl"-->
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
