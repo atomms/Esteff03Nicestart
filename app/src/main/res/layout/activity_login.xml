@@ -91,7 +91,7 @@
         app:layout_constraintStart_toStartOf="@id/guideline4"
         app:layout_constraintTop_toBottomOf="@id/til2"
         style="@style/buttonflat"
-        tools:ignore="OnClick" />
+        android:onClick="openMainActivity" />
 
     <Button
         android:id="@+id/button2"
@@ -101,7 +101,8 @@
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline5"
         app:layout_constraintStart_toStartOf="@id/guideline4"
-        app:layout_constraintTop_toBottomOf="@id/button1" />
+        app:layout_constraintTop_toBottomOf="@id/button1"
+        android:onClick="openSignup" />
 
 
     <androidx.constraintlayout.widget.Guideline

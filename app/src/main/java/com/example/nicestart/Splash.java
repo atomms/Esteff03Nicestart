@@ -41,7 +41,7 @@ public class Splash extends AppCompatActivity {
 
         ImageView texto = (ImageView) findViewById(R.id.logo);
         Animation animacion = AnimationUtils.loadAnimation(this,
-                R.anim.blink);
+                R.anim.zoom_in);
         texto.startAnimation(animacion);
 
 
@@ -79,6 +79,6 @@ public class Splash extends AppCompatActivity {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
-        },5000);
+        },6000);
     }
 }

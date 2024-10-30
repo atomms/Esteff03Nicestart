@@ -1,7 +1,9 @@
 package com.example.nicestart;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,5 +24,16 @@ public class Main extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+
+    public void openSignup(View view){
+        Intent intent = new Intent(this,Signup.class);
+        startActivity(intent);
+    }
+
+    public void openMainActivity(View view){
+        Intent intent = new Intent(this,Main.class);
+        startActivity(intent);
     }
 }

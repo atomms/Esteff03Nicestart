@@ -1,7 +1,7 @@
 <resources>
 
     <style name="Base.Theme.Nicestart" parent="Theme.Material3.DayNight.NoActionBar">
-
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <style name="Theme.Nicestart" parent="Base.Theme.Nicestart" />
@@ -9,6 +9,7 @@
     <style name="Theme.First.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+
     </style>
 
     <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid">
