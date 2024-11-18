@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.graphics.Insets;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
+
+import androidx.activity.EdgeToEdge;
 
 public class Login extends AppCompatActivity {
 
@@ -48,7 +50,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void openMainActivity(View view){
-        Intent intent = new Intent(this,Main.class);
+        Intent intent = new Intent(this, MainActivityToolBar.class);
         startActivity(intent);
     }
 }

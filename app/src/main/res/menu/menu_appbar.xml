@@ -2,34 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- Item para la acción que aparece en el Toolbar -->
     <item
         android:id="@+id/item4"
-        android:title="copy"
+        android:title="Copy"
         android:icon="@drawable/mail"
-        app:showAsAction="ifRoom"
-        />
+        app:showAsAction="ifRoom"/>
 
+    <!-- Otras opciones de menú -->
     <item
         android:id="@+id/item3"
-        android:title="Setting"
-        app:showAsAction="never"
-        />
+        android:title="Settings"
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/profile"
         android:title="Profile"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/signup"
-        android:title="SignUp"
-        app:showAsAction="never"
-        />
+        android:title="Sign Up"
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/login"
         android:title="Login"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never"/>
 </menu>

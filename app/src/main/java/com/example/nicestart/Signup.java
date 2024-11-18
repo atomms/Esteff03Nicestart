@@ -30,7 +30,7 @@ public class Signup extends AppCompatActivity {
     }
 
     public void openMainActivity(View view){
-        Intent intent = new Intent(this,Main.class);
+        Intent intent = new Intent(this, MainActivityToolBar.class);
         startActivity(intent);
     }
 }

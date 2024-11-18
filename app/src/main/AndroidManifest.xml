@@ -15,29 +15,33 @@
         android:theme="@style/Theme.Nicestart"
         tools:targetApi="31">
         <activity
+            android:name=".MainVista"
+            android:exported="true"
+            android:theme="@style/Base.Theme.Nicestart" /> <!-- Poner eso para que tenga estilo de toolbar el de arriba y revisar esto que esta en style -->
+        />
+        <activity
             android:name=".Splash"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Profile"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Signup"
             android:exported="true" />
         <activity
-            android:name=".Main"
+            android:name=".MainActivityToolBar"
             android:exported="true" />
         <activity
             android:name=".Login"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize" />
 
         <meta-data
             android:name="preloaded_fonts"
