@@ -50,7 +50,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void openMainActivity(View view){
-        Intent intent = new Intent(this, MainActivityToolBar.class);
+        Intent intent = new Intent(this, MainVista.class);
         startActivity(intent);
     }
 }

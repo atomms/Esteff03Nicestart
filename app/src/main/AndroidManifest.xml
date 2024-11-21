@@ -34,13 +34,15 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Signup"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".Login"
+            android:theme="@style/Theme.Nicestart" />/>
         <activity
             android:name=".MainActivityToolBar"
             android:exported="true" />
         <activity
             android:name=".Login"
-            android:exported="false"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize" />
 
         <meta-data

@@ -17,23 +17,12 @@
         >
 
         <WebView
+            android:id="@+id/vistaweb"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/vistaweb"
-            >
-        </WebView>
+            android:visibility="visible" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-
-    <TextView
-        android:id="@+id/textovista"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hola que haces?"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="712dp"
-        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

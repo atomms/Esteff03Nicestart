@@ -37,8 +37,8 @@ public class MainVista extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main_vista);
 
-        mycontext = (TextView) findViewById(R.id.textovista);
-        registerForContextMenu(mycontext);
+        //mycontext = (TextView) findViewById(R.id.textovista);
+        //registerForContextMenu(mycontext);
 
 
 
@@ -62,6 +62,40 @@ public class MainVista extends AppCompatActivity {
             return insets;
         });
     }
+
+
+    //esta siendo llamado en los itemns del menu desplegable
+    public void showAlertDialogButtonClicked(MainVista mainActivity) {
+
+        // setup the alert builder
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
+
+//        //el dialogo estandar tiene título/icono pero podemos sustituirlo por un XML a medida
+        builder.setTitle("Achtung!");
+        builder.setMessage("Where do you go?");
+        builder.setIcon(R.drawable.logout);
+        builder.setCancelable(false);
+
+        // un XML a medida para el diálogo se crea otro layout
+        builder.setView(getLayoutInflater().inflate(R.layout.alertdialog_view, null));
+
+        // add the buttons
+        builder.setPositiveButton("Back", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // do something like...
+                Intent intent = new Intent(MainVista.this, Login.class);
+                startActivity(intent);
+                dialog.dismiss();
+            }
+        });
+
+        // create and show the alert dialog
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+
 
     //funcionalidad del swipe
     protected SwipeRefreshLayout.OnRefreshListener
